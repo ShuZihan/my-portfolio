@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: transparent;
+  height: 64px;
+  color: black;
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: 0.2s;
+}
+
+.navbar.scrolled {
+  background-color: rgb(0, 0, 0, 0.8);
+  box-shadow: 0 2px 10px rgb(0, 0, 0, 0.1);
+}
+span {
+  background-color: transparent;
+}
